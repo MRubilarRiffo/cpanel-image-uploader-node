@@ -1,7 +1,5 @@
 const fs = require('fs').promises;
-const path = require('path');
 const config = require('../config/config.js');
-const e = require('cors');
 
 // Función para formatear la fecha
 const formatDate = () => {
